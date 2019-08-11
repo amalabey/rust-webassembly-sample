@@ -1,0 +1,17 @@
+[package]
+name = "yew-web-sample"
+version = "0.1.0"
+authors = ["Amal Abeygunawardana <amalabey@gmail.com>"]
+edition = "2018"
+[[bin]]
+name = "sample"
+path = "src/main.rs"
+
+
+[dependencies]
+yew = "0.8.0"
+stdweb = "0.4.18"
+
+[lib]
+name = "yew_sample_lib"
+path = "src/lib.rs"
